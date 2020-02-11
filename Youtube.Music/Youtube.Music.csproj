@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageIcon>youtube_socialnetwork_19998.png</PackageIcon>
+    <ApplicationIcon>youtube_socialnetwork_19998.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="WebWindow" Version="0.1.0-20191120.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="youtube_socialnetwork_19998.png">
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+</Project>
